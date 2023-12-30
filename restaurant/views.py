@@ -10,7 +10,7 @@ from .serializers import BookingSerializer, MenuSerializer
 # Create your views here.
 
 def home(request):
-    return render(request, 'base.html', {})
+    return render(request, 'index.html', {})
 
 
 class MenuViewSet(viewsets.ViewSet):
